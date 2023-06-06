@@ -28,13 +28,13 @@ function GoalInput(props) {
         />
         <TextInput
           style={styles.textImput}
-          placeholder="Your course goal!"
+          placeholder="Add Items!"
           onChangeText={goalInputHandler}
           value={enteredGoalText}
         />
         <View style={styles.buttonContainer}>
           <View style={styles.button}>
-            <Button title="Add goal!" onPress={addGoalHandler} color="#b180f0"/>
+            <Button title="Add item!" onPress={addGoalHandler} color="#b180f0"/>
           </View>
 
           <View style={styles.button}>
